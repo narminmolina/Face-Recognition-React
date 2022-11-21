@@ -2,8 +2,10 @@
   "name": "facerecognitionbrain",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://narminmolina.github.io/Face-Recognition-React",
   "dependencies": {
     "clarifai": "^2.9.1",
+    "gh-pages": "^4.0.0",
     "particles-bg": "^2.5.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -14,6 +16,8 @@
     "tsparticles": "^2.5.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
