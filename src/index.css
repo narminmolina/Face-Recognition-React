@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(89deg, #a9c9ff 0%, #ffbbec 100%);
@@ -8,10 +8,34 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 button {
+  cursor: pointer;
+}
+
+.form {
+  width: 700px;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background: linear-gradient(135deg, #41459555 25%, transparent 25%) -13px 0/
+      26px 26px,
+    linear-gradient(225deg, #414595 25%, transparent 25%) -13px 0/ 26px 26px,
+    linear-gradient(315deg, #41459555 25%, transparent 25%) 0px 0/ 26px 26px,
+    linear-gradient(45deg, #414595 25%, #e5e5f7 25%) 0px 0/ 26px 26px;
+}
+
+.Tilt {
+  background: linear-gradient(89deg, #a9c9ff 0%, #ffbbec 100%);
+}
+
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #c260ab inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   cursor: pointer;
 }

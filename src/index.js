@@ -1,14 +1,11 @@
-import React from 'react';
-import { createRoot } from 'react-dom/client';
-import './index.css';
-import App from './App';
-// import registerServiceWorker from './registerServiceWorker';
-import 'tachyons';
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-const root = createRoot(document.getElementById('root'));
+import App from "./App";
 
-root.render(<App />)
+import "tachyons";
+import "./index.css";
 
-// ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();
+const root = createRoot(document.getElementById("root"));
 
+root.render(<App />);
